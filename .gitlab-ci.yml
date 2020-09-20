@@ -1,0 +1,5 @@
+build site:
+  image: node:12
+  script:
+    - yarn install
+    - yarn test
